@@ -18,6 +18,6 @@ inkrementacji wartości sekwencji o podanej nazwie.
    z jednej sekwencji (sekwencji o tej samej nazwie) i dla których generowane będą unikalne wartości.
 4. Znajdź błąd w implementacji metody w klasie abstrakcyjnej: 
    `public Object incremetSequenceId(String seqClazzName, final Long value) throws MercuryException;`
-   Wskazówka: Błąd nie pozwala na przejście scenariusza testowego opisanego w pkt. 2
+   Wskazówka: Błąd nie pozwala na przejście scenariusza testowego opisanego w pkt. 3
  
 Czas na realizację zadania: 5 dni.

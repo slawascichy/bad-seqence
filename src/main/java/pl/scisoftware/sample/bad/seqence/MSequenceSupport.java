@@ -109,6 +109,18 @@ public abstract class MSequenceSupport implements MSequenceDAO {
 		}
 	}
 
+	/**
+	 * Implementacja metody pobierającej dane sekwencji właściwej oraz utrwalająca
+	 * dane sekwencji w bazie danych.
+	 * 
+	 * @param seqClazz
+	 *            klasa sekwencji
+	 * @param lInterval
+	 *            interwał, o ile ma być zwiększona sekwencja w bazie danych
+	 * @return wartość sekwencji w bazie danych.
+	 * @throws InstantiationException
+	 * @throws IllegalAccessException
+	 */
 	protected abstract Long generateEndInterval(Class<?> seqClazz, Long lInterval)
 			throws InstantiationException, IllegalAccessException;
 
